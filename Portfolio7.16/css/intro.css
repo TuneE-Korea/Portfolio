@@ -1,0 +1,152 @@
+.contents.num2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40vh;
+  width: 100vw;;
+  margin-bottom: 130px;
+}
+
+.intro {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro > h2 {
+  width: 100%;
+  left: 0;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.contents.num2 > h2 {
+  text-align: center;
+}
+
+.info {
+  width: 100vw;
+  max-width: 1200px;
+  height: 100%;
+  padding-top: 80px;
+}
+
+.iconwrap {
+  position: relative;
+  display: grid;
+  aspect-ratio: 1 / 1;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.iconbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconbox.card1 {
+  position: absolute;
+  left: 0;
+}
+
+.iconbox.card2 {
+  position: absolute;
+  left: 25%;
+}
+
+.iconbox.card3 {
+  position: absolute;
+  left: 50%;
+}
+
+.iconbox.card4 {
+  position: absolute;
+  left: 75%;
+}
+
+.iconbox.card1:hover .text {
+  opacity: 1;
+}
+
+.iconbox.card2:hover .text {
+  opacity: 1;
+}
+
+.iconbox.card3:hover .text {
+  opacity: 1;
+}
+
+.iconbox.card4:hover .text {
+  opacity: 1;
+}
+
+.info .iconbox .iconbox > i {
+  font-size: 70px;
+  transition: transform 0.3s ease;
+}
+
+.info .text {
+  width: 200px;
+  text-align: center;
+  padding: 8px 0;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+/* 테블릿 */
+@media screen and (max-width: 1024px) {
+  .contents.num2 {
+    height: 30vh;  
+  }
+  .intro {
+    width: 100%;
+    align-items: center;
+  }
+  .iconwrap {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  .intro > h2 {
+    left: 0;
+    padding-left: 45px;
+  }
+  .info .text {
+    font-size: 16px;
+  }
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+  .contents.num2 {
+    height: 45vh;  
+  }
+  .intro {
+    width: 100%;
+    /* height: 200vh; */
+    align-items: center;
+  }
+  .intro > h2 {
+    text-align: center;
+    padding: 0;
+    font-size: 25px;
+  }
+  .info {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    padding-top: 50px;
+  }
+  .info .text {
+    font-size: 14px;
+  }
+  .iconbox.card1,
+  .iconbox.card2,
+  .iconbox.card3,
+  .iconbox.card4 {
+    position:static;
+  }
+}
