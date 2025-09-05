@@ -21,7 +21,6 @@
 .iconbox.card1:hover > i,
 .iconbox.card2:hover > i,
 .iconbox.card3:hover > i,
-.iconbox.card4:hover > i
- {
+.iconbox.card4:hover > i {
   animation: wobbleRotate 0.5s ease-in-out;
 }

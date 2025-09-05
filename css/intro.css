@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   height: 40vh;
-  width: 100vw;;
+  width: 100vw;
   margin-bottom: 130px;
 }
 
@@ -101,7 +101,7 @@
 /* 테블릿 */
 @media screen and (max-width: 1024px) {
   .contents.num2 {
-    height: 30vh;  
+    height: 30vh;
   }
   .intro {
     width: 100%;
@@ -123,7 +123,7 @@
 /* 모바일 */
 @media screen and (max-width: 768px) {
   .contents.num2 {
-    height: 45vh;  
+    height: 45vh;
   }
   .intro {
     width: 100%;
@@ -147,6 +147,6 @@
   .iconbox.card2,
   .iconbox.card3,
   .iconbox.card4 {
-    position:static;
+    position: static;
   }
 }

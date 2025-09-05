@@ -51,7 +51,7 @@ address,
 
 /* 테블릿 */
 @media screen and (max-width: 1024px) {
-  .button_box, 
+  .button_box,
   address,
   .adressinfo > p {
     font-size: 12px;
@@ -60,7 +60,7 @@ address,
 
 /* 모바일 */
 @media screen and (max-width: 768px) {
-  .button_box, 
+  .button_box,
   address,
   .adressinfo > p {
     font-size: 10px;

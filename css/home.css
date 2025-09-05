@@ -60,7 +60,7 @@
   }
   .container > .contents > .wrap > .home > .preview {
     top: 38%;
-    width: 80vw;    
+    width: 80vw;
     font-size: 25px;
     padding-left: 45px;
   }
@@ -73,14 +73,14 @@
     align-items: center;
     justify-content: center;
   }
-.container > .contents > .wrap > .home > h2 {
-    width: 100%;  
+  .container > .contents > .wrap > .home > h2 {
+    width: 100%;
     top: 30%;
     font-size: 25px;
     padding: 0;
     text-align: center;
   }
-.container > .contents > .wrap > .home > .preview {
+  .container > .contents > .wrap > .home > .preview {
     width: 100%;
     top: 34%;
     font-size: 16px;
