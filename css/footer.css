@@ -1,0 +1,68 @@
+.button_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+.adressinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 37px;
+}
+address,
+.adressinfo > p {
+  font-size: 14px;
+}
+.blog {
+  background-color: #2ecc71;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.insta {
+  background-color: #e7a6de;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.notion {
+  background-color: #424544;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.blog:hover {
+  background-color: #b8e994;
+}
+.insta:hover {
+  background-color: #ffcccc;
+}
+.notion:hover {
+  background-color: #a5b1c2;
+}
+
+/* 테블릿 */
+@media screen and (max-width: 1024px) {
+  .button_box, 
+  address,
+  .adressinfo > p {
+    font-size: 12px;
+  }
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+  .button_box, 
+  address,
+  .adressinfo > p {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+aside > button {
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 11;
+}
+
+aside > button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+aside > button:hover {
+  color: black;
+  background-color: #dff9fb;
+  border: 1px solid black;
+}
+
+/* 모바일 */
+/* 사이드바의 반응형 버전은 모바일만 필요할 것이라 판단 */
+@media screen and (max-width: 786px) {
+  aside {
+    width: 100%;
+    padding: 0 20px;
+    bottom: 20px;
+    right: 0px;
+  }
+  aside > button {
+    right: 0px;
+    width: 100%;
+    bottom: 32px;
+    max-width: 1280px;
+  }
+}
